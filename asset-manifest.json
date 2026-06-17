@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/faishal-portofolio/static/css/main.0ddbc23e.css",
+    "main.js": "/faishal-portofolio/static/js/main.49df0945.js",
+    "index.html": "/faishal-portofolio/index.html",
+    "main.0ddbc23e.css.map": "/faishal-portofolio/static/css/main.0ddbc23e.css.map",
+    "main.49df0945.js.map": "/faishal-portofolio/static/js/main.49df0945.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0ddbc23e.css",
+    "static/js/main.49df0945.js"
+  ]
+}
