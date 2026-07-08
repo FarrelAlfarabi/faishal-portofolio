@@ -66,25 +66,18 @@ function Hero({ data }) {
         </div>
         <div className="hero-visual">
           <div className="tilt"></div>
-          {/* Placeholder — replace src with your photo in /public/hero.jpg */}
-          <div style={{
-            height: 500,
-            borderRadius: 'calc(var(--radius-lg) - 4px)',
-            background: 'var(--accent-weak)',
-            display: 'flex',
-            alignItems: 'center',
-            justifyContent: 'center',
-            flexDirection: 'column',
-            gap: 12,
-            color: 'var(--accent)',
-            fontSize: 14,
-            fontWeight: 600,
-            position: 'relative',
-            zIndex: 1,
-          }}>
-            <span style={{ fontSize: 48 }}>🧑‍💼</span>
-            <span>Add hero.jpg to /public/</span>
-          </div>
+          <img 
+            src="/hero.jpg" 
+            alt="Faishal Zuhair" 
+            style={{
+              height: 500,
+              width: '100%',
+              objectFit: 'cover',
+              borderRadius: 'calc(var(--radius-lg) - 4px)',
+              position: 'relative',
+              zIndex: 1,
+            }}
+          />
         </div>
       </div>
       <div className="container">
@@ -99,10 +92,17 @@ function About({ data }) {
   return (
     <section id="about" className="section alt">
       <div className="container grid2">
-        <div style={{ borderRadius: 'var(--radius-lg)', overflow: 'hidden', background: 'var(--accent-weak)', minHeight: 360, display: 'flex', alignItems: 'center', justifyContent: 'center', flexDirection: 'column', gap: 12, color: 'var(--accent)', fontSize: 14, fontWeight: 600 }}>
-          <span style={{ fontSize: 48 }}>📸</span>
-          <span>Add about.jpg to /public/</span>
-        </div>
+        <img 
+          src="/about.jpg" 
+          alt="About Faishal Zuhair" 
+          style={{ 
+            borderRadius: 'var(--radius-lg)', 
+            overflow: 'hidden', 
+            minHeight: 360, 
+            width: '100%',
+            objectFit: 'cover',
+          }}
+        />
         <div>
           <p className="eyebrow" style={{ color: 'var(--gold)', background: 'var(--gold-weak)', border: '1px solid #e8d49a', borderRadius: 999, display: 'inline-block', fontSize: 11, fontWeight: 700, letterSpacing: '0.18em', padding: '5px 14px', textTransform: 'uppercase', marginBottom: 16 }}>
             About Me
